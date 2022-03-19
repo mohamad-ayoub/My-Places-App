@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">My Places Applcation</string>
+    <string name="app_name">CreativeLoginDesigns</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_retype_password_hint">Retype Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="start">start</string>
+    <string name="address_hint">Address</string>
+    <string name="location_lat_hint">Location Latitude</string>
+    <string name="location_lon_hint">Location Longitude</string>
+    <string name="Note">Note</string>
 </resources>

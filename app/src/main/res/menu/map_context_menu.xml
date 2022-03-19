@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuPlacesMapView"
+        android:title="map view" />
+    <item
+        android:id="@+id/menuPlacesListView"
+        android:title="list view" />
+    <item
+        android:id="@+id/menuPlacesAddNew"
+        android:title="add new place" />
+</menu>
