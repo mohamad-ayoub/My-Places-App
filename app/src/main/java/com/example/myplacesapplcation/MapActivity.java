@@ -9,13 +9,27 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+import java.util.Objects;
+
 public class MapActivity extends AppCompatActivity {
+    GoogleMap googleMap;
+    MapView mapView;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
         findViewById(R.id.fabShowAddLocationDialog).setOnClickListener(fabShowAddLocationDialog_onClick);
         registerForContextMenu(findViewById(R.id.fabShowAddLocationDialog));
+
+        mapView = findViewById(R.id.placesMapView);
+
     }
 
     private View.OnClickListener fabShowAddLocationDialog_onClick = new View.OnClickListener() {
@@ -56,4 +70,6 @@ public class MapActivity extends AppCompatActivity {
         return true;
         //return super.onContextItemSelected(item);
     }
+
+
 }
